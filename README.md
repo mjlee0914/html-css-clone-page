@@ -2,7 +2,21 @@
 
 KANT AX Engineer 과정 CH2 프론트엔드 개발 평가 과제로 제작한 클론 페이지입니다.
 
-![클론 페이지 전체 화면](image.png)
+## 구현 화면
+
+### 전체 화면
+
+![클론 페이지 전체 화면](screenshots/full-page.png)
+
+### 헤더
+
+![클론 페이지 헤더](screenshots/header.png)
+
+### 메인
+
+![클론 페이지 메인](screenshots/main.png)
+
+> 현재 제출 코드의 `<footer>`는 주석 처리되어 있어 푸터 화면은 구현 후 추가할 예정입니다.
 
 ## 프로젝트 소개
 
@@ -33,6 +47,10 @@ python3 -m http.server 8000
 │   └── style.css
 ├── js/
 │   └── common.js
+├── screenshots/
+│   ├── full-page.png
+│   ├── header.png
+│   └── main.png
 ├── index.html
 └── image.png
 ```
@@ -41,7 +59,8 @@ python3 -m http.server 8000
 
 - [x] 개인 Public 저장소로 분리
 - [x] 전체 화면 캡처 포함
-- [ ] 헤더·메인·푸터 부분 화면 캡처 추가
+- [x] 헤더·메인 부분 화면 캡처 추가
+- [ ] 푸터 구현 및 화면 캡처 추가
 - [ ] GitHub Pages 배포 주소 추가
 
 ## 원본 작업 위치
