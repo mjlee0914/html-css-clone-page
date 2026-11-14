@@ -2,6 +2,12 @@
 
 KANT AX Engineer 과정 CH2 프론트엔드 개발 평가 과제로 제작한 클론 페이지입니다.
 
+## 시연 영상
+
+![스파르타클럽 강의 목록 클론 페이지 스크롤 시연](screenshots/clone-page-demo.gif)
+
+상단 내비게이션부터 인기 강의 카드와 국비지원 강의 혜택 영역까지 페이지 구성을 한 흐름으로 보여줍니다.
+
 ## 구현 화면
 
 ### 전체 화면
@@ -48,6 +54,7 @@ python3 -m http.server 8000
 ├── js/
 │   └── common.js
 ├── screenshots/
+│   ├── clone-page-demo.gif
 │   ├── full-page.png
 │   ├── header.png
 │   └── main.png
@@ -58,6 +65,7 @@ python3 -m http.server 8000
 ## 과제 제출 전 확인
 
 - [x] 개인 Public 저장소로 분리
+- [x] 페이지 스크롤 시연 GIF 포함
 - [x] 전체 화면 캡처 포함
 - [x] 헤더·메인 부분 화면 캡처 추가
 - [ ] 푸터 구현 및 화면 캡처 추가
